@@ -1,0 +1,75 @@
+Variable names,Labels
+DESYNPUF_ID,DESYNPUF: Beneficiary Code
+BENE_BIRTH_DT,DESYNPUF: Date of birth
+BENE_DEATH_DT,DESYNPUF: Date of death
+BENE_SEX_IDENT_CD,DESYNPUF: Sex
+BENE_RACE_CD,DESYNPUF: Beneficiary Race Code
+BENE_ESRD_IND,DESYNPUF: End stage renal disease Indicator
+SP_STATE_CODE,DESYNPUF: State Code
+BENE_COUNTY_CD,DESYNPUF: County Code
+BENE_HI_CVRAGE_TOT_MONS,DESYNPUF: Total number of months of part A coverage for the beneficiary.
+BENE_SMI_CVRAGE_TOT_MONS,DESYNPUF: Total number of months of part B coverage for the beneficiary.
+BENE_HMO_CVRAGE_TOT_MONS,DESYNPUF: Total number of months of HMO coverage for the beneficiary.
+PLAN_CVRG_MOS_NUM,DESYNPUF: Total number of months of part D plan coverage for the beneficiary.
+SP_ALZHDMTA,DESYNPUF: Chronic Condition: Alzheimer or related disorders or senile
+SP_CHF,DESYNPUF: Chronic Condition: Heart Failure
+SP_CHRNKIDN,DESYNPUF: Chronic Condition: Chronic Kidney Disease
+SP_CNCR,DESYNPUF: Chronic Condition: Cancer
+SP_COPD,DESYNPUF: Chronic Condition: Chronic Obstructive Pulmonary Disease
+SP_DEPRESSN,DESYNPUF: Chronic Condition: Depression
+SP_DIABETES,DESYNPUF: Chronic Condition: Diabetes
+SP_ISCHMCHT,DESYNPUF: Chronic Condition: Ischemic Heart Disease
+SP_OSTEOPRS,DESYNPUF: Chronic Condition: Osteoporosis
+SP_RA_OA,DESYNPUF: Chronic Condition: rheumatoid arthritis and osteoarthritis (RA/OA)
+SP_STRKETIA,DESYNPUF: Chronic Condition: Stroke/transient Ischemic Attack
+MEDREIMB_IP,DESYNPUF: Inpatient annual Medicare reimbursement amount
+BENRES_IP,DESYNPUF: Inpatient annual beneficiary responsibility amount
+PPPYMT_IP,DESYNPUF: Inpatient annual primary payer reimbursement amount
+MEDREIMB_OP,DESYNPUF: Outpatient Institutional annual Medicare reimbursement amount
+BENRES_OP,DESYNPUF: Outpatient Institutional annual beneficiary responsibility amount
+PPPYMT_OP,DESYNPUF: Outpatient Institutional annual primary payer reimbursement amount
+MEDREIMB_CAR,DESYNPUF: Carrier annual Medicare reimbursement amount
+BENRES_CAR,DESYNPUF: Carrier annual beneficiary responsibility amount
+PPPYMT_CAR,DESYNPUF: Carrier annual primary payer reimbursement amount
+CLM_ID,DESYNPUF: Claim ID
+SEGMENT,DESYNPUF: Claim Line Segment
+CLM_FROM_DT,DESYNPUF: Claims start date
+CLM_THRU_DT,DESYNPUF: Claims end date
+PRVDR_NUM,DESYNPUF: Provider Institution
+CLM_PMT_AMT,DESYNPUF: Claim Payment Amount
+NCH_PRMRY_PYR_CLM_PD_AMT,DESYNPUF: NCH Primary Payer Claim Paid Amount
+AT_PHYSN_NPI,DESYNPUF: Attending Physician – National Provider Identifier Number
+OP_PHYSN_NPI,DESYNPUF: Operating Physician – National Provider Identifier Number
+OT_PHYSN_NPI,DESYNPUF: Other Physician – National Provider Identifier Number
+CLM_ADMSN_DT,DESYNPUF: Inpatient admission date
+ADMTNG_ICD9_DGNS_CD,DESYNPUF: Claim Admitting Diagnosis Code
+CLM_PASS_THRU_PER_DIEM_AMT,DESYNPUF: Claim Pass Thru Per Diem Amount
+NCH_BENE_IP_DDCTBL_AMT,DESYNPUF: NCH Beneficiary Inpatient Deductible Amount
+NCH_BENE_PTA_COINSRNC_LBLTY_AM,DESYNPUF: NCH Beneficiary Part A Coinsurance Liability Amount
+NCH_BENE_BLOOD_DDCTBL_LBLTY_AM,DESYNPUF: NCH Beneficiary Blood Deductible Liability Amount
+CLM_UTLZTN_DAY_CNT,DESYNPUF: Claim Utilization Day Count
+NCH_BENE_DSCHRG_DT,DESYNPUF: Inpatient discharged date
+CLM_DRG_CD,DESYNPUF: Claim Diagnosis Related Group Code
+ICD9_DGNS_CD_1 – ICD9_DGNS_CD_10,DESYNPUF: Claim Diagnosis Code 1 – Claim Diagnosis Code 10
+ICD9_PRCDR_CD_1 – ICD9_PRCDR_CD_6,DESYNPUF: Claim Procedure Code 1 – Claim Procedure Code 6
+HCPCS_CD_1 – HCPCS_CD_45,DESYNPUF: Revenue Center HCFA Common Procedure Coding System 1 – Revenue Center HCFA Common Procedure Coding System 45
+NCH_BENE_PTB_DDCTBL_AMT,DESYNPUF: NCH Beneficiary Part B Deductible Amount
+NCH_BENE_PTB_COINSRNC_AMT,DESYNPUF: NCH Beneficiary Part B Coinsurance Amount
+ICD9_DGNS_CD_1 – ICD9_DGNS_CD_8,DESYNPUF: Claim Diagnosis Code 1 – Claim Diagnosis Code 8
+PRF_PHYSN_NPI_1 – PRF_PHYSN_NPI_13,DESYNPUF: Provider Physician – National Provider Identifier Number
+TAX_NUM_1 – TAX_NUM_13,DESYNPUF: Provider Institution Tax Number
+HCPCS_CD_1 – HCPCS_CD_13,DESYNPUF: Line HCFA Common Procedure Coding System 1 – Line HCFA Common Procedure Coding System 13
+LINE_NCH_PMT_AMT_1– LINE_NCH_PMT_AMT_13,DESYNPUF: Line NCH Payment Amount 1 – Line NCH Payment Amount 13
+LINE_BENE_PTB_DDCTBL_AMT_1 – LINE_BENE_PTB_DDCTBL_AMT_13,DESYNPUF: Line Beneficiary Part B Deductible Amount 1 – Line Beneficiary Part B Deductible Amount 13
+LINE_BENE_PRMRY_PYR_PD_AMT_1 – LINE_BENE_PRMRY_PYR_PD_AMT_13,DESYNPUF: Line Beneficiary Primary Payer Paid Amount 1 – Line Beneficiary Primary Payer Paid Amount 13
+LINE_COINSRNC_AMT_1 – LINE_COINSRNC_AMT_13,DESYNPUF: Line Coinsurance Amount 1 – Line Coinsurance Amount 13
+LINE_ALOWD_CHRG_AMT_1 – LINE_ALOWD_CHRG_AMT_13,DESYNPUF: Line Allowed Charge Amount 1 – Line Allowed Charge Amount 13
+LINE_PRCSG_IND_CD_1 – LINE_PRCSG_IND_CD_13,DESYNPUF: Line Processing Indicator Code 1 – Line Processing Indicator Code13
+LINE_ICD9_DGNS_CD_1 – LINE_ICD9_DGNS_CD_13,DESYNPUF: Line Diagnosis Code 1 – Line Diagnosis Code 13
+PDE_ID,DESYNPUF: CCW Part D Event Number
+SRVC_DT,DESYNPUF: RX Service Date
+PROD_SRVC_ID,DESYNPUF: Product Service ID
+QTY_DSPNSD_NUM,DESYNPUF: Quantity Dispensed
+DAYS_SUPLY_NUM,DESYNPUF: Days Supply
+PTNT_PAY_AMT,DESYNPUF: Patient Pay Amount
+TOT_RX_CST_AMT,DESYNPUF: Gross Drug Cost
