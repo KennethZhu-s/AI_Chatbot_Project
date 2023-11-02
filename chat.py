@@ -21,7 +21,7 @@ agent_gpt = create_csv_agent(
         agent_type=AgentType.OPENAI_FUNCTIONS,
     )
 
-# Create a response modelue
+# Create a response module
 def get_agent_response(user_input, agent):
     response = agent.run(user_input)
     return response
@@ -33,6 +33,5 @@ if __name__ == "__main__":
         sentence = input("You: ")
         if sentence == "quit":
             break
-
         resp = get_agent_response(sentence, agent_gpt)
         print(resp)

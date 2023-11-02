@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index_get():
-    return render_template("base.html")
+    return render_template("base2.html")
 
 # Specify the path of csv and create the agent.
 tmp_file_path = 'data/meta_data_sample.csv'
